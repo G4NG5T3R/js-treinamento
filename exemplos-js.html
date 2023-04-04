@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <script>
+        ///// EXEMPLO DE FUNCTION /////
+        /*
+        function pulaLinha() {
+          document.write("<br>");
+        }
+        function sorteia() {
+          return Math.round(Math.random() * 10);
+        }
+        */
+
+        ///// EXEMPLO DE IF /////
+        /*
+        let num = parseInt(prompt("Digite um numero entre 0 e 10: "));
+        let numero = sorteia();
+        document.write(numero);
+        pulaLinha();
+        
+        if (num == numero) {
+          document.write("Certo!");
+        } else {
+          document.write("Errado!");
+        }
+        */
+
+        ///// EXEMPLO DE WHIILE /////
+        /*
+        var ano = 1900;
+        while (ano <= 2000) {
+          document.write(ano);
+          document.write("<br>")
+          ano++;
+        }
+        */
+
+        ///// EXEMPLO DE QUEBRA DE WHILE /////
+        /*
+        let numeroPensado = Math.round(Math.random() * 10);
+        let tentativas = 1;
+
+        while (tentativas <= 3) {
+          let chute = parseInt(prompt("Digite um numero: "));
+
+          if (numeroPensado == chute) {
+            document.write(
+              "CERTO! <br> O número pensado foi: " + numeroPensado
+            );
+            break;
+          } else {
+            document.write("ERRADO! <br>");
+          }
+          tentativas++;
+        }
+        */
+
+        ///// VERIFICAR VALOR NaN /////
+        /*
+        var idade = parseInt(prompt("Digite sua idade"));
+
+        while (isNaN(idade)) {
+          idade = parseInt(prompt("Digite sua idade"));
+        }
+
+        alert(idade);
+        */
+
+        ///// EXEMPLO DE FOR /////
+        /*
+        for(var multiplicador = 1; multiplicador <= 10; multiplicador++ ){
+            document.write(multiplicador * 7);
+            document.write("<br>");
+        }
+        */
+
+        ///// EXEMPLO DE REPETIÇÕES ANINHADAS /////
+        /*
+        for (let linha = 1; linha <= 3; linha++) {
+          for (let coluna = 1; coluna <= 10; coluna++) {
+            document.write("*");
+          }
+          document.write("<br>");
+        }
+        */
+
+      </script>
+    </main>
+    <footer></footer>
+  </body>
+</html>
